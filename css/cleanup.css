@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+  }
+  
+#tag-7 {
+    align-content: center;
+}
+
+.parent{
+    background: rebeccapurple;
+}
+
+#wall {
+    width: 20px;
+    background: indigo;
+    height: auto;
+}
+
+.parent + img {
+    background: scroll;
+    height: auto;
+    width: 20px;
+}
